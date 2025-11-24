@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="wxkI5B8dwLxo-5Dn5w7_">
+    <mxGraphModel dx="1325" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-1" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.cloud_callout" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.laptop;" vertex="1" parent="1">
+          <mxGeometry x="350" y="670" width="48" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-3" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.vpn_gateway;" vertex="1" parent="1">
+          <mxGeometry x="220.00000000000003" y="440" width="54.900000000000006" height="54.900000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hOkrm2dkWGEOSeTZvIY0-4" target="hOkrm2dkWGEOSeTZvIY0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-4" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.vpn_gateway;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="54.900000000000006" height="54.900000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-5" value="Kali Machine: To act as router and Dual VPN Gateway." style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="680" width="185.1" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hOkrm2dkWGEOSeTZvIY0-2" target="hOkrm2dkWGEOSeTZvIY0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.582;entryY=0.818;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hOkrm2dkWGEOSeTZvIY0-3" target="hOkrm2dkWGEOSeTZvIY0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-14" value="WireGuard Tunnel 10.10.0.0/24" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384.9" y="300" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-15" value="OpenVPN tunnel 10.20.0.0" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292.45" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hOkrm2dkWGEOSeTZvIY0-16" value="Cloud/Client Devices" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
